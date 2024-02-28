@@ -4,197 +4,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     tools:context=".MainActivity">
 
 
     <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card11"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="65dp" />
 
     <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="78dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-        app:layout_constraintEnd_toStartOf="@+id/imageView17"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card44"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="81dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="81dp"
-        android:layout_marginEnd="81dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card43"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="0dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="132dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/imageView11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card42"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="82dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="82dp"
-        android:layout_marginEnd="78dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toEndOf="@+id/imageView13"
-        app:layout_constraintStart_toStartOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card41"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card34"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="29dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card33"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="0dp"
-        android:layout_height="152dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="132dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card32"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card31"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="109dp"
-        android:layout_marginEnd="81dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card24"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="244dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card23"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="78dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card22"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="160dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
-        app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView15"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card21"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="227dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="112dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card42"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="65dp" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/card" />
+        android:id="@+id/card43"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="65dp" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="29dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintEnd_toStartOf="@+id/imageView15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/card" />
-
-
-
+        android:id="@+id/card44"
+        android:layout_width="76dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="65dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
